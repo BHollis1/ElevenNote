@@ -49,7 +49,7 @@ namespace ElevenNote.Data
     {
         public IdentityUserLoginConfiguration()
         {
-            HasKey(IdentityUserLogin => IdentityUserLogin.UserId);
+            HasKey(iul => iul.UserId);
         }
     }
 
