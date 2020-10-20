@@ -22,5 +22,10 @@ namespace ElevenNote.Data
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }
+        public int MyID { get; set; }
+        public int YourID { get; set; }
+        public int MyProperty { get; set; }
+
+
     }
 }
